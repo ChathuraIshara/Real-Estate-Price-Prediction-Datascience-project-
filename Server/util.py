@@ -44,6 +44,7 @@ def load_saved_artifacts():
 
 
 def get_location_names():
+   load_saved_artifacts()
    return __locations
 
 
